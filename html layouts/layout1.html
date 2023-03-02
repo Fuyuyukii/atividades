@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .BG{
+        height: 100vh;
+        width: 100vw;
+        background-color: blue;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .rengulo_encima{
+        margin: 50px;
+        height: 190px;
+        width: 75%;
+        background-color: yellow;
+    }
+    .organizador_embaixo{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+    .agrupa_esquerda{
+        margin-left: 12.5%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 75%;
+    }
+    .bloquinhos{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+    .bloco1{
+        height: 160px;
+        width: 120px;
+        background-color: yellow;
+    }
+    .bloco2{
+        height: 160px;
+        width: 120px;
+        background-color: yellow;
+    }
+    .retagunlo_esquerdo{
+        margin-top: 45px;
+        height: 170px;
+        width: 340px;
+        background-color: yellow;
+    }
+    .retangulo_direito{
+        margin-right: 12.5%;
+        height: 100%;
+        width: 200px;
+        background-color: yellow;
+    }
+
+
+</style>
+<body>
+    <div class="BG">
+        <div class="rengulo_encima"></div>
+        <div class="organizador_embaixo">
+            <div class="agrupa_esquerda">
+                <div class="bloquinhos">
+                    <div class="bloco1"></div>
+                    <div class="bloco2"></div>
+                </div>
+                <div class="retagunlo_esquerdo"></div>
+            </div>
+            <div class="retangulo_direito"></div>
+        </div>
+
+    </div>
+</body>
+</html>
