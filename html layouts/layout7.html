@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: blue;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    .tela{
+        width: 940.5px;
+        height: 710.09px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .direita{
+        width: 30%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .esquerda{
+        width: 45%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .retangulos_cima{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+    .retangulo_baixo{
+        margin-top: 45px;
+        height: 200px;
+        width: 425px;
+        background-color: yellow;
+    }
+    .quadrado{
+        height: 200px;
+        width: 160px;
+        margin-bottom: 45px;
+        background-color: yellow;
+    }
+    .retangulo{
+        height: 400px;
+        width: 160px;
+        background-color: yellow;
+    }
+</style>
+<body>
+    <div class="tela">
+        <div class="direita">
+            <div class="quadrado"></div>
+            <div class="retangulo"></div>
+        </div>
+        <div class="esquerda">
+            <div class="retangulos_cima">
+                <div class="retangulo"></div>
+                <div class="retangulo"></div>
+            </div>
+            <div class="esquerda_baixo">
+                <div class="retangulo_baixo"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
