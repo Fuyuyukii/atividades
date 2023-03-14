@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Picolé</title>
+    <style>
+        .botoes{
+            display: flex;
+            background-color: yellow;
+            width: 100%;
+            height: 60px;
+            font-size: 20px;
+        }
+        button:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    
+    <fieldset>
+        <legend> Dados do picolezinhos</legend>
+        Descrição:
+        <input type="text" class="caixa_larga" id="descricao">
+        <br><br>
+        
+        Digite o preço:
+        <input type="text" class="caixa_larga" id="preco">
+        <br><br>
+        
+        Fornecedor da parada:
+        <input type="text" class="caixa_larga" id="fornecedor">
+        <br><br>
+        
+        Quantidade a desenrolar:
+        <input type="number" class="caixa_larga" id="quantidade">
+        <br><br>
+
+        Data do pedido:
+        <input type="date" class="caixa_larga" id="data_pedido">
+        <br><br>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Sobre o sabor</legend>
+        Escolha 1 sabor:
+        <br><br>
+        <input type="radio" class="pimenta" name="sabores">
+        Pimenta:
+        <input type="radio" class="concreto" name="sabores">
+        Concreto:
+        <input type="radio" class="cimento" name="sabores">
+        Cimento:
+        <input type="radio" class="abobora" name="sabores">
+        Abóbora:
+        <br><br>
+        Selecione quais as cores da embalagem:
+        <br>
+        <input type="checkbox" id="amarelo">Amarelo
+        <input type="checkbox" id="verde">Verde
+        <input type="checkbox" id="burro">Burro quando foge
+        <br><br>
+        <select name="estado" id="">
+            <option>Amapá</option>
+            <option>Bahia</option>
+            <option>Paraná</option>
+            <option selected>Santa Catarina</option>
+        </select>
+        <br><br>
+        <button>ENVIAR</button>
+        <button>LIMPAR</button>
+    </fieldset>
+
+</body>
+</html>
