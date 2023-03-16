@@ -39,6 +39,7 @@ body{
 /* ---MAIN */
 
 main{
+    display: flex;
     width: 100%;
     height: 85vh;
 }
@@ -107,10 +108,19 @@ main{
 }
 
 .product_img{
+    /* BOX */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
     width: 25%;
     height: 85%;
     background-color: #47DD12;
+
+    /* TEXT */
+    color: white;
+    font-family: urbanist;
+
 }
 
 .product_description{
@@ -123,3 +133,16 @@ main{
     font-family: urbanist;
 }
 
+/* --car_img */
+
+.car_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+}
+
+.car_img img{
+    width: 70%;
+}
